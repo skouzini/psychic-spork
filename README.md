@@ -1,5 +1,5 @@
 # psychic-spork  
 Creative project #1  
-Gaven Finch: gavenfinch@gmailcom  
+Gaven Finch: gavenfinch@gmail.com  
 Josh Skousen skousenjosh@gmail.com  
 Mallori Dayes malluvsrange@gmail.com  
