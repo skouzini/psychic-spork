@@ -11,7 +11,7 @@ Home page
 Featured  
 *Multiple clubs  
 *Brief summary  
-*Facebook Link
+*Facebook Link  
 Events Locations  
 *Calendar-like list
 Survey  
