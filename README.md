@@ -6,13 +6,13 @@ Mallori Dayes malluvsrange@gmail.com
 
 
 Home page  
-*about club night  
-*link to pages  
+* about club night  
+* link to pages  
 Featured  
-*Multiple clubs  
-*Brief summary  
-*Facebook Link  
+* Multiple clubs  
+* Brief summary  
+* Facebook Link  
 Events Locations  
-*Calendar-like list
+* Calendar-like list
 Survey  
 
