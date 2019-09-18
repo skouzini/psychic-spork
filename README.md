@@ -5,18 +5,22 @@ Josh Skousen skousenjosh@gmail.com
 Mallori Dayes malluvsrange@gmail.com  
 
 
-Home page  
+Home page - Josh  
 * about club night  
 * link to pages  
 
 
-Featured  
+Featured - Gaven  
 * Multiple clubs  
 * Brief summary  
 * Facebook Link  
 
 
-Events Locations  
-* Calendar-like list
-Survey  
+Events Locations - Mallori  
+* Calendar-like list  
 
+
+Survey - Mallori  
+
+
+CSS - Josh
