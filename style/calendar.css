@@ -1,0 +1,28 @@
+table {
+  background-color: white;
+  border-radius: 5px;
+  border: 15px solid #051830;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  margin: 15px auto; }
+
+tr {
+  text-align: left;
+  table-layout: auto; }
+  tr .day {
+    text-align: right; }
+
+td {
+  font-size: 1.25em;
+  padding: 10px 15px;
+  border-left: 3px solid #eeeeee; }
+
+.date {
+  background-color: #c8c8c8;
+  font-weight: bold; }
+  .date td {
+    border-left: 0px solid #eeeeee; }
+
+.odd {
+  background-color: #f6f6f6; }
+
+/*# sourceMappingURL=calendar.css.map */
