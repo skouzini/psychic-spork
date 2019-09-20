@@ -3,58 +3,106 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="/style/styles.css">
+    <link rel="stylesheet" href="../style/master.css">
+    <link rel="stylesheet" href="../style/survey.css">
     <title>Club Survey - BYU Clubs</title>
 </head>
 
 <body>
-  <h1>Survey</h1>
-  <form action="">
-    Q1: Tell us a little about yourself! Please include your name, major as well as the reason you decided to join this club. <br>
-    <input type="text" name="firstname">
-    <br><br>
-    Q2: Are you interested in participating in any future events with other school's Swing Dance club? <br>
-    <form>
-      <input type="radio" name="answer" value="Yes" checked> Yes<br>
-      <input type="radio" name="answer" value="No"> Maybe<br>
-      <input type="radio" name="answer" value="Maybe"> No
-    </form>
-    <br>
-    Q3: What level of experience do you have? <br>
-    <form>
-      <input type="radio" name="answer" value="Beginner" checked> Beginner<br>
-      <input type="radio" name="answer" value="Intermediate"> Intermediate<br>
-      <input type="radio" name="answer" value="Advanced">
-      Advanced <br>
-      <br>
-    </form>
-    Q4: Would you be interested in receiving videos on tips and tricks to improve your form?
-    <form>
-      <input type="radio" name="answer" value="Yes" checked> Yes<br>
-      <input type="radio" name="answer" value="No"> No<br>
-      <br>
-    </form>
-    Q5:If you answered advanced on Q3, would you interested in taking the lead at meetings and teaching steps/dances to other club members? <br>
-    <form>
-      <input type="radio" name="answer" value="Yes" checked> Yes<br>
-      <input type="radio" name="answer" value="No"> No<br>
-      <br>
-    </form>
-    Q6: If you answered yes to Q4, please enter your email address so we can send you informational videos about Swing Dance.<br>
-    <input type="text" name="firstname">
-    <br><br>
-    Q7: Would you be interested in competing in Swing Dance competitions? <br>
-    <form>
-      <input type="radio" name="answer" value="Yes" checked> Yes<br>
-      <input type="radio" name="answer" value="No"> No<br>
-      <br>
-    </form>
-    Q8: Let us know what you hope to gain from of being a member of this club?<br>
-    <input type="text" name="firstname">
-    <br><br>
-    <input type="submit" value="Submit">
-  </form>
+  <header>
+    <div class="header_bg"></div>
+    <div class="title_box">
+      <a href="../index.html"><h1>Club<br/><span>Survey</span></h1></a>
+    </div>
+  </header>
 
+  <div class="nav">
+    <div class="logo">
+      <a href="../index.html"><img src="/style/images/byu_y.png" alt=""></a>
+    </div>
+    <div class="menu">
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="/pages/featured.html">Featured Clubs</a></li>
+        <li><a href="/pages/calendar.html">Events</a></li>
+        <li class="active"><a href="/pages/survey.html">Club Survey</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="content_box">
+    <form action="">
+      <p>Q1: Tell us a little about yourself! Please include your name, major as well as the reason you decided to join this club.</p>
+      <div class="input_box">
+        <input type="text" name="firstname">
+      </div>
+    </form>
+
+    <form>
+      <p>Q2: Are you interested in participating in any future events with other school's Swing Dance club?</p>
+      <div class="input_box">
+        <input type="radio" name="answer" value="Yes">Yes<br>
+        <input type="radio" name="answer" value="No">Maybe<br>
+        <input type="radio" name="answer" value="Maybe">No<br>
+      </div>
+    </form>
+
+    <form>
+      <p>Q3: What level of experience do you have?</p>
+      <div class="input_box">
+        <input type="radio" name="answer" value="Beginner">Beginner<br>
+        <input type="radio" name="answer" value="Intermediate">Intermediate<br>
+        <input type="radio" name="answer" value="Advanced">Advanced <br>
+      </div>
+    </form>
+
+    <form>
+      <p>Q4: Would you be interested in receiving videos on tips and tricks to improve your form?</p>
+      <div class="input_box">
+        <input type="radio" name="answer" value="Yes"> Yes<br>
+        <input type="radio" name="answer" value="No"> No<br>
+      </div>
+    </form>
+
+    <form>
+      <p>Q5:If you answered advanced on Q3, would you interested in taking the lead at meetings and teaching steps/dances to other club members?</p>
+      <div class="input_box">
+        <input type="radio" name="answer" value="Yes"> Yes<br>
+        <input type="radio" name="answer" value="No"> No<br>
+      </div>
+    </form>
+
+    <form>
+      <p>Q6: If you answered yes to Q4, please enter your email address so we can send you informational videos about Swing Dance.</p>
+      <div class="input_box">
+        <input type="text" name="firstname"><br>
+      </div>
+    </form>
+
+    <form>
+      <p>Q7: Would you be interested in competing in Swing Dance competitions?</p>
+      <div class="input_box">
+        <input type="radio" name="answer" value="Yes"> Yes<br>
+        <input type="radio" name="answer" value="No"> No<br>
+      </div>
+    </form>
+
+    <form>
+      <p>Q8: Let us know what you hope to gain from of being a member of this club?</p>
+      <div class="input_box">
+        <input type="text" name="firstname"><br>
+        <input class="submit" type="submit" value="Submit"><br>
+      </div>
+    </form>
+    <h1>Thank you so much!</h1>
+  </div>
+
+  <footer>
+      <a href="https://github.com/skouzini/psychic-spork">GitHub</a>
+    <div class="copyright">
+      <h4>Created by gfinch, mdayes, and skouzini, 2019 - Copyright 2019</h4>
+    </div>
+  </footer>
 </body>
 
 </html>
