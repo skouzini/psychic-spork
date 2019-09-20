@@ -1,0 +1,54 @@
+.content_box h1 {
+  font-size: 2.5em;
+  margin: 15px auto; }
+
+.content_card {
+  height: 20vh;
+  text-align: left;
+  overflow: hidden; }
+
+.featuredClubPhoto {
+  float: left; }
+  .featuredClubPhoto img {
+    height: 30vh;
+    width: auto;
+    border-radius: 3px;
+    position: relative; }
+
+.swing, .salsa, .acappella {
+  box-shadow: 3px 0px 12px rgba(14, 47, 90, 0.4); }
+
+.swing {
+  position: absolute;
+  top: -10vh;
+  left: -5vh; }
+
+.salsa {
+  position: absolute;
+  top: -5vh;
+  left: -5vh; }
+
+.acappella {
+  position: absolute;
+  top: -2vh;
+  left: -3vh; }
+
+.quark {
+  position: absolute;
+  top: -2vh;
+  left: -13vh; }
+
+.featuredClubName {
+  font-size: 2em;
+  font-weight: bold; }
+
+.featuredClubDescription {
+  font-size: 1.1em;
+  padding-top: 1vh; }
+
+.featuredClubLink {
+  font-size: 1.25em;
+  vertical-align: bottom;
+  color: #0e2f5a; }
+
+/*# sourceMappingURL=featured.css.map */
