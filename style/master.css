@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+header {
+  height: 30vh;
+  width: 100%; }
+  header .header_bg {
+    background-image: url("/style/images/byu_roc.jpg");
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden; }
+  header .title_box {
+    background-color: #0e2f5a;
+    background-color: rgba(14, 47, 90, 0.4);
+    color: white;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 2em;
+    border: 3px solid #f1f1f1;
+    border-radius: 3px;
+    position: absolute;
+    top: 15vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 60%;
+    padding: 30px;
+    box-shadow: 1px 1px 3px black; }
+
+.nav {
+  height: 50px;
+  background-color: #0e2f5a;
+  box-shadow: 0 2px 15px black; }
+  .nav .logo {
+    float: left;
+    margin: 6px 25px;
+    vertical-align: middle; }
+    .nav .logo img {
+      height: 35px; }
+  .nav .menu {
+    float: right;
+    color: white;
+    margin-right: 25px; }
+    .nav .menu ul .active, .nav .menu ul :hover {
+      background-color: #051830; }
+    .nav .menu ul li {
+      display: inline-block;
+      padding: 15px 15px;
+      margin: 0 -3px; }
+
+.content_box {
+  width: 70%;
+  margin: 50px auto;
+  padding: 10px 25px;
+  background-color: #eeeeee;
+  border-radius: 5px;
+  border-right: 3px solid #e1e1e1;
+  border-bottom: 3px solid #d5d5d5;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  text-align: center; }
+  .content_box h1 {
+    font-weight: 300;
+    color: #93bf5d; }
+  .content_box .content_card {
+    width: 90%;
+    margin: 25px auto;
+    padding: 10px 25px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2); }
+    .content_box .content_card p {
+      text-align: justify;
+      margin: 5px 0; }
+
+.grid_container {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white; }
+  .grid_container .item_1, .grid_container .item_2, .grid_container .item_3 {
+    background-color: #0e2f5a;
+    border-radius: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+footer {
+  padding: 25px;
+  background-color: #051830;
+  text-align: center;
+  color: #0e2f5a;
+  box-shadow: 0 50vh 0 50vh #051830; }
+  footer a, footer h4 {
+    font-weight: 150;
+    margin: 15px 0; }
+
+/*# sourceMappingURL=master.css.map */
